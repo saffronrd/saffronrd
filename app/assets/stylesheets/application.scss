@@ -28,7 +28,7 @@ body {
 }
 
 .header-img{
-	background: url(/assets/onix_bar.jpg) no-repeat;
+	background: asset-url('onix_bar.jpg');
 	width: 100%;
 	height: 374px;
 	margin-top: -20px;
