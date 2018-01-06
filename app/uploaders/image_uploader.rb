@@ -6,6 +6,10 @@ class ImageUploader < CarrierWave::Uploader::Base
   include Cloudinary::CarrierWave
 
 
+ def public_id
+    return "gallery/" + model.short_name
+  end  
+
   # Choose what kind of storage to use for this uploader:
   storage :file
   # storage :fog
