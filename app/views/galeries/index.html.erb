@@ -7,6 +7,7 @@
     <tr>
       <th>Name</th>
       <th>Description</th>
+      <th>Image</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
       <tr>
         <td><%= galery.name %></td>
         <td><%= galery.description %></td>
+        <td><%= image_tag galery.image.url %></td>
         <td><%= link_to 'Show', galery %></td>
         <td><%= link_to 'Edit', edit_galery_path(galery) %></td>
         <td><%= link_to 'Destroy', galery, method: :delete, data: { confirm: 'Are you sure?' } %></td>

@@ -10,5 +10,7 @@
   <%= @galery.description %>
 </p>
 
+<%= image_tag @galery.image_url.to_s %>
+
 <%= link_to 'Edit', edit_galery_path(@galery) %> |
 <%= link_to 'Back', galeries_path %>
