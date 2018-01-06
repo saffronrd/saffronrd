@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: saffronrd
+  api_key: '795865186438969'
+  api_secret: sIDDLAaljvD4bc-yjDQ846X3ZwI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: saffronrd
+  api_key: '795865186438969'
+  api_secret: sIDDLAaljvD4bc-yjDQ846X3ZwI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: saffronrd
+  api_key: '795865186438969'
+  api_secret: sIDDLAaljvD4bc-yjDQ846X3ZwI
+  enhance_image_tag: true
+  static_image_support: false
