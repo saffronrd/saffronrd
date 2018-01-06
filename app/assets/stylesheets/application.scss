@@ -43,6 +43,15 @@ a h1{
     font-family: -webkit-pictograph;
 }
 
+h1#logo a{
+  background: asset-url('logo_saffron_white.png');
+  height:135px;
+  width: 300px;
+  display:block;
+  text-indent: -999999px;
+
+}
+
 .logo h1:hover{
 	color: #ff0d06;
 }
