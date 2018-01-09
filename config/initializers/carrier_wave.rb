@@ -6,6 +6,6 @@ if Rails.env.production?
 	    aws_access_key_id:     'AKIAJPRRB7OYU75X2EBQ',                        
 	    aws_secret_access_key: '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',                        
 	  }
-	  config.fog_directory  = Rails.env                         
+	  config.fog_directory  = 'saffronimages'                         
 	end
 end
