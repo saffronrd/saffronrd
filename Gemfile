@@ -27,6 +27,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'carrierwave'
 gem 'cloudinary'
 gem 'fog'
+gem 'mail_form', '~> 1.5.1'
 
 
 # Use ActiveModel has_secure_password

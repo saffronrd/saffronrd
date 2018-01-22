@@ -9,3 +9,5 @@ if Rails.env.production?
 	  config.fog_directory  = ENV['S3_BUCKET']                         
 	end
 end
+
+#Always run "heroku db:migrate" everytime you set AWS stuff

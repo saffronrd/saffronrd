@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :galeries
+  resources :contacts, only: [:new, :create]
   get 'pages/home'
 
   get 'pages/about'
